@@ -36,5 +36,6 @@ public class Main {
 
         // Display the result
         System.out.println("Full name: " + fullName);
+
         }
 }
