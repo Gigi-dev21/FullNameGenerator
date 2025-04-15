@@ -13,7 +13,7 @@ public class FullNameParser {
         // Split the name based on spaces
         String[] nameParts = fullName.split(" ");
 
-        // Extract individual parts of the name
+        // Extract individual parts of the name//
         String firstName = nameParts[0];
         String middleName = (nameParts.length > 2) ? nameParts[1] : "(none)";
         String lastName = nameParts[nameParts.length - 1];
